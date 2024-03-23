@@ -1,0 +1,81 @@
+(ExpressProject "PSF"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\psf.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\psf-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\psf-pspicefiles\schematic1\psf.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\psf-pspicefiles\schematic1\psf.sim"
+        (DisplayName "SCHEMATIC1-psf")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "D:\TCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "D:\TCAD\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (BZX84C6V2/PLP
+      (FullPartName "BZX84C6V2/PLP.Normal")
+      (LibraryName "D:\TCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\PHIL_DIODE.OLB")
+      (DeviceIndex "0"))
+    (POT
+      (FullPartName "POT.Normal")
+      (LibraryName "D:\TCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "D:\TCAD\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName "D:\TCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\Virgil\Desktop\P1_2023_431C_RONCEA_TEODOR_SERS_N18_LTspice\Schematics\psf.dsn")
+      (Path "Design Resources"
+         "C:\Users\Virgil\Desktop\P1_2023_431C_RONCEA_TEODOR_SERS_N18_LTspice\Schematics\psf.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "C:\Users\Virgil\Desktop\P1_2023_431C_RONCEA_TEODOR_SERS_N18_LTspice\Schematics\psf.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 282"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1434 104 425")
+        (Scroll "-156 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\VIRGIL\DESKTOP\P1_2023_431C_RONCEA_TEODOR_SERS_N18_LTSPICE\SCHEMATICS\PSF.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "Virgil"))
