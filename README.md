@@ -1,4 +1,4 @@
-# PROJECT 1 
+# PROJECT 1 DCE - Designing a discrete Series Voltage Regulator
 ## Short Description
 As part of our studies in the fifth semester of Electrotechnical Ingineering, we were tasked with designing a fully-discrete **Series Voltage Regulator** and preparing the PCB layout for manufacturing.
 
