@@ -8,7 +8,7 @@ Key design targets were:
 - Low output voltage thermal coefficient, preferably under 2mV/degree Celsius
 - Variable output voltage between 9V and 14.4V, with minimal output voltage droop at a maximum load of 900 Ohms
 
-More information about the design considerations, the safety margins and cosniderations can be found in the full report on the project, available <a href="https://github.com/Riggstadt/PROIECT_1_ETTI/blob/main/DOCUMENTATION/DOCUMENTATIE_P1_SERS_N18_RONCEA_TEODOR_VIRGIL_431C.pdf">here</a>
+More information about the design considerations, the safety margins and cosniderations can be found in the full report on the project, available <a href="https://github.com/Riggstadt/PROIECT_1_ETTI/blob/main/DOCUMENTATION/DOCUMENTATIE_P1_SERS_N18_RONCEA_TEODOR_VIRGIL_431C.pdf">here</a>.
 
 I choose a simple, yet robust topology for my voltage regulator circuit. The regulator is centered on a simple error amplifier, built upon a differential pair, with current mirror load and emitter degeneration. As control element, a high-power DPAK Bipolar Transistor was used, in conjuction with the resistive feedback network. The reference voltage source of the regulator is provided by a self-biased voltage reference.
 
