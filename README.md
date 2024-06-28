@@ -1,4 +1,25 @@
 # PROJECT 1 DCE - Designing a discrete Series Voltage Regulator
+## [NEW] Showcase of finalized design 
+The project is now over, the final board has been assembled and tested. After some minor fixes and improvements we have a fully functional voltage regulator, behaving as expected.
+
+<br>
+  <p align="center">
+    <img height = "550" src = "BOARD_SHOWCASE.png">
+    <br>
+    <br>
+    <a><b>PCB board layout and the populated board in real life</b></a>
+</p>
+<br>
+
+<br>
+  <p align="center">
+    <img height = "550" src = "BOARD_DC_CHARACTERISTIC.png">
+    <br>
+    <br>
+    <a><b>DC transfer characteristic of realized voltage regulator</b></a>
+</p>
+<br>
+
 ## Short Description
 As part of our studies in the fifth semester of Electrotechnical Ingineering, we were tasked with designing a fully-discrete **Series Voltage Regulator** and preparing the PCB layout for manufacturing.
 
