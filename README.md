@@ -61,3 +61,5 @@ Some further improvements could be made to this Voltage Regulator, such that it 
 
 ## Notes and useful sources
 A more complete selection of resources can be found  <a href="https://github.com/Riggstadt/PROIECT_1_ETTI/blob/main/DOCUMENTATION/DOCUMENTATIE_P1_SERS_N18_RONCEA_TEODOR_VIRGIL_431C.pdf">here</a>, in the full report on the design process considerations.
+
+[NEW] I've added a presentation of the project (mandatory for finalizing the subject matter). The showcase summarizes the design considerations and lessons learned. You can find it <a href="https://github.com/Riggstadt/PROIECT_1_ETTI/blob/main/DOCUMENTATION/PREZENTARE_SERS_N18_RONCEA_TEODOR_431C.pptx">here</a>.
