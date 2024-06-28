@@ -4,7 +4,7 @@ The project is now over, the final board has been assembled and tested. After so
 
 <br>
   <p align="center">
-    <img height = "550" src = "BOARD_SHOWCASE.png">
+    <img height = "350" src = "BOARD_SHOWCASE.png">
     <br>
     <br>
     <a><b>PCB board layout and the populated board in real life</b></a>
@@ -13,7 +13,7 @@ The project is now over, the final board has been assembled and tested. After so
 
 <br>
   <p align="center">
-    <img height = "550" src = "BOARD_DC_CHARACTERISTIC.png">
+    <img height = "350" src = "BOARD_DC_CHARACTERISTIC.png">
     <br>
     <br>
     <a><b>DC transfer characteristic of realized voltage regulator</b></a>
