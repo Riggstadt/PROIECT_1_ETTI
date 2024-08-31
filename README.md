@@ -31,7 +31,7 @@ Key design targets were:
 
 More information about the design considerations can be found in the full report on the project, available <a href="https://github.com/Riggstadt/PROIECT_1_ETTI/blob/main/DOCUMENTATION/DOCUMENTATIE_P1_SERS_N18_RONCEA_TEODOR_VIRGIL_431C.pdf">here</a>.
 
-I choose a simple, yet robust topology for my voltage regulator circuit. The regulator is centered on a simple error amplifier, built upon a differential pair, with current mirror load and emitter degeneration. As control element, a high-power DPAK Bipolar Transistor was used, in conjuction with the resistive feedback network. The reference voltage source of the regulator is provided by a self-biased voltage reference.
+I chose a simple, yet robust topology for my voltage regulator circuit. The regulator is centered on a simple error amplifier, built upon a differential pair, with current mirror load and emitter degeneration. As control element, a high-power DPAK Bipolar Transistor was used, in conjuction with the resistive feedback network. The reference voltage source of the regulator is provided by a self-biased voltage reference.
 
 <br>
   <p align="center">
@@ -45,19 +45,19 @@ I choose a simple, yet robust topology for my voltage regulator circuit. The reg
 
 The (to me) most interesting part of the whole circuit is the voltage reference block, a type of self-biased reference, with its design inspired by a similar subcircuit presented on Ken Sheriff's <a href="https://www.righto.com/2020/09/how-to-multiply-currents-inside.html">blog</a>, see Note #12 at the bottom of the article. The voltage reference is simplified, in order to conform to the constraints on component usage, but it still remains a stable reference, with low temperature dependance and high ripple rejection.
 
-The over-current protection network takes the form of a simple current limiter, with all components used having been confirmed to resist the maximum possible dissipated power.
+The over-current protection network takes the form of a simple current limiter, with all components having been confirmed to resist the maximum possible dissipated power.
 
 ## Lessons learned and possible improvements
 This exercise in basic circuit design has taught me many lessons, such as:
 - The necessity of start-up circuits for self-biased references
 - The importance of proper thermal analysis for even basic components
-- The inherent variations between components, even when from the same lot, or sample
+- The inherent variations between components, even when from the same lot
 - The need for accurate Spice models
 
 Some further improvements could be made to this Voltage Regulator, such that it can attain a higher degree of stability:
 - The addition of an "in-chip" compensation network to set a clear dominant pole
 - The replacement of the BJT-based Control Element with a MOSFET equivalent, for lower drop-out voltage, lower on-resistance, higher off-resistance and so on
-- The enlargement of the PCB dimensions (constrained by design directives) and accommodation of a large copper pour, for thermal considerations
+- The enlargement of the PCB dimensions (constrained by design directives) and accommodation of a large copper pour for better heat dissipation
 
 ## Notes and useful sources
 A more complete selection of resources can be found  <a href="https://github.com/Riggstadt/PROIECT_1_ETTI/blob/main/DOCUMENTATION/DOCUMENTATIE_P1_SERS_N18_RONCEA_TEODOR_VIRGIL_431C.pdf">here</a>, in the full report on the design process considerations.
