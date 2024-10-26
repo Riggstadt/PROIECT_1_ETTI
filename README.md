@@ -21,7 +21,7 @@ The project is now over, the final board has been assembled and tested. After so
 <br>
 
 ## Short Description
-As part of our studies in the fifth semester of Electrotechnical Ingineering, we were tasked with designing a fully-discrete **Series Voltage Regulator** and preparing the PCB layout for manufacturing.
+As part of our studies in the fifth semester of Electrotechnical Engineering we were tasked with designing a fully-discrete **Series Voltage Regulator** and preparing the PCB layout for manufacturing.
 
 Key design targets were:
 - Open-loop Gain (AOL) of at least 100
